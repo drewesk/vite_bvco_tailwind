@@ -1,14 +1,25 @@
-import { useState } from 'react'
+import React from 'react'
+import Hero from './components/Hero'
+import NavBar from './components/NavBar'
+import Offers from './components/Offers'
+import Plan from './components/Plan'
+import Room from './components/Room'
+import ImageSlider from './components/ImageSlider'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-       <h1 className="text-3xl font-bold underline">
-      BVCo. Site Renovation
-    </h1>
-    </>
+      
+      <div>
+         <NavBar/>
+         <Hero />
+         <Offers />
+         <Plan />
+         <Room />
+         <ImageSlider />
+         <Footer />
+      </div>  
   )
 }
 
