@@ -2,10 +2,9 @@ import React from 'react'
 import Hero from './components/Hero'
 import NavBar from './components/NavBar'
 import Offers from './components/Offers'
-import Plan from './components/Plan'
-import Room from './components/Room'
+import AboutUs from './components/AboutUs'
 import ImageSlider from './components/ImageSlider'
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -15,10 +14,9 @@ function App() {
          <NavBar/>
          <Hero />
          <Offers />
-         <Plan />
-         <Room />
+         <AboutUs />
          <ImageSlider />
-         <Footer />
+         <Contact />
       </div>  
   )
 }

@@ -11,8 +11,8 @@ const NavBar = () => {
     
     return (
         <div className='absolute w-full flex justify-between p-4 items-center'>
-            <h1 className='text-white font-bold text-2xl z-20'>Experiences</h1>
-            <HiMenuAlt3 onClick={handleNav} className='fixed right-[4%] z-20 text-white cursor-pointer' size={50}/>
+            <img src="./logo.svg" alt="BVCo. Logo" className='absolute align-items-center top-0 w-[30%] justify-center'/>  
+            <HiMenuAlt3 onClick={handleNav} className='fixed right-[4%] top-0 z-20 text-black cursor-pointer' size={80}/>
             <div className={
                     nav 
                         ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/70 px-4 py-7 flex-col z-10' 
@@ -20,10 +20,9 @@ const NavBar = () => {
                 } >
                 <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
                     <a onClick={handleNav} href='#home' className='font-bold text-3xl p-8'> Home</a>
-                    <a onClick={handleNav} href='#one'  className='font-bold text-3xl p-8'> Destinations</a>
-                    <a onClick={handleNav} href='#two'  className='font-bold text-3xl p-8'> Reservations</a>
-                    <a onClick={handleNav} href='#three'  className='font-bold text-3xl p-8'> Amenities</a>
-                    <a onClick={handleNav} href='#four'  className='font-bold text-3xl p-8'> Home</a>
+                    <a onClick={handleNav} href='#one'  className='font-bold text-3xl p-8'> About Us</a>
+                    <a onClick={handleNav} href='#three'  className='font-bold text-3xl p-8'> Gallery</a>
+                    <a onClick={handleNav} href='#contact'  className='font-bold text-3xl p-8'>Contact</a>
                 </ul>
             </div>
         </div>
