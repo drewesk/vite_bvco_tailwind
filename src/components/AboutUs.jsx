@@ -12,6 +12,7 @@ const AboutUs = () => {
             <Lottie animationData={vendingAnimationData} />
         
       </div>
+      
       {/* Right Side */}
       <div className='flex flex-col h-full justify-center'>
         <h3 className='text-5xl md:text-6xl font-bold'>Our Story</h3>
@@ -19,7 +20,7 @@ const AboutUs = () => {
           What if you could have your cake and eat it too?
         </p>
         <p className='pb-6'>
-          We noticed a niche in the market, most vending companies are not taking advantage of premium markets local to the greater Denver-Boulder area. We offer both high quality options and natural ingredients for snack and drink as well as the "vending classics". Click below to learn more! 
+          We noticed an opportunity in the market, most dedicated vending companies are not taking advantage of premium products local to the greater Denver-Boulder area. We proudly offer both high quality options and natural ingredients for snack and drink.. as well as the "vending classics". 
         </p>
         <div>
           
