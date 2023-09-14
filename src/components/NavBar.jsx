@@ -11,8 +11,8 @@ const NavBar = () => {
     
     return (
         <div className='absolute w-full flex justify-between p-4 items-center'>
-            <img src="./logo.svg" alt="BVCo. Logo" className='absolute align-items-center top-0 w-[30%] justify-center'/>  
-            <HiMenuAlt3 onClick={handleNav} className='fixed right-[4%] top-0 z-20 text-black cursor-pointer' size={80}/>
+            <img src="./logo.svg" alt="BVCo. Logo" className='shadow-inner absolute align-items-center top-0 w-[30%] justify-center'/>  
+            <HiMenuAlt3 onClick={handleNav} className='hover:bg-red-700 shadow-2xl bg-white fixed right-[4%] top-0 z-20 text-black cursor-pointer' size={80}/>
             <div className={
                     nav 
                         ? 'ease-in duration-300 fixed text-gray-300 left-0 top-0 w-full h-screen bg-black/70 px-4 py-7 flex-col z-10' 
