@@ -10,9 +10,9 @@ const Hero = () => {
                         <p className='md:text-7xl'>Premium Vending</p>
                         <h1 className="font-bold text-5xl md:text-6xl drop-shadow-2xl">At your place of business</h1>
                         <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio numquam dignissimos, omnis distinctio aliquam esse quam suscipit dolores. Laudantium, sapiente.
+                            Premuim snack and drink services, vending classics, zero-cost placement.
                         </p>
-                        <a href="#contact"><button className="bg-white text-black ">Reserve Now</button></a>
+                        <a href="#contact"><button className="bg-white text-black ">Request Now!</button></a>
 
                     </div>
             
