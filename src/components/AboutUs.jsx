@@ -20,7 +20,7 @@ const AboutUs = () => {
           What if you could have your cake and eat it too?
         </p>
         <p className='pb-6'>
-          We noticed an opportunity in the market, most dedicated vending companies are not taking advantage of premium products local to the greater Denver-Boulder area. We proudly offer both high quality options and natural ingredients for snack and drink.. as well as the "vending classics". 
+          We noticed an opportunity in the market, most dedicated vending companies are not taking advantage of offering premium products local to the greater Denver-Boulder area. We proudly serve high quality options and natural ingredients for snack and drink as well as the "Vending Classics". 
         </p>
         <div>
           

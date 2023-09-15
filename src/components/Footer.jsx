@@ -12,8 +12,15 @@ const Footer = () => {
           <p className='py-4'>
             Deals, articles and resources sent to your inbox weekly.
           </p>
-          <form className='flex flex-col sm:flex-row'>
-            <input className='w-full p-2 mr-4 rounded-md mb-4' type='email' placeholder='Enter email..' />
+          <form className='flex flex-col sm:flex-row'
+           action="https://getform.io/f/03bcee55-6c65-492d-9309-4ccf7d21db7a" 
+            method='POST' 
+            encType='multipart/form-data'>
+            <input name='name' className='hidden' value='EmailList'/>
+
+            <input className='w-full p-2 mr-4 rounded-md mb-4' type='email' placeholder='Enter email..' name="email" id="email"
+                        required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
             <button className='p-2 mb-4 rounded-md'>Subscribe</button>
           </form>
         </div>
