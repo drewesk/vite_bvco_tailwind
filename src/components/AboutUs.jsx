@@ -15,12 +15,12 @@ const AboutUs = () => {
       
       {/* Right Side */}
       <div className='flex flex-col h-full justify-center'>
-        <h3 className='text-5xl md:text-6xl font-bold'>Our Story</h3>
+        <h3 className='text-5xl md:text-6xl font-bold'>Our Mission</h3>
         <p className='text-2xl py-6'>
-          What if you could have your cake and eat it too?
+          Taking vending machine services through the Stratosphere, at Zero-cost to you!
         </p>
         <p className='pb-6'>
-          We noticed an opportunity in the market, most dedicated vending companies are not taking advantage of offering premium products local to the greater Denver-Boulder area. We proudly serve high quality options and natural ingredients for snack and drink as well as the "Vending Classics". 
+          We noticed a hunger for premium, natural, and healthy options local to the greater Denver-Boulder area. BVCo. proudly serves high quality products with natural ingredients as well as the "Vending Classics" everyone knows and loves. 
         </p>
         <div>
           
