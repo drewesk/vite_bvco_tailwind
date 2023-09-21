@@ -21,7 +21,7 @@ const NavBar = () => {
                 <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
                     <a onClick={handleNav} href='#home' className='font-bold text-3xl p-8'> Home</a>
                     <a onClick={handleNav} href='#one'  className='font-bold text-3xl p-8'> About Us</a>
-                    <a onClick={handleNav} href='#three'  className='font-bold text-3xl p-8'> Gallery</a>
+                    {/*<a onClick={handleNav} href='#three'  className='font-bold text-3xl p-8'> Gallery</a>*/}
                     <a onClick={handleNav} href='#contact'  className='font-bold text-3xl p-8'>Contact</a>
                 </ul>
             </div>

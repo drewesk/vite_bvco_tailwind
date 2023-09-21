@@ -17,10 +17,10 @@ const AboutUs = () => {
       <div className='flex flex-col h-full justify-center'>
         <h3 className='text-5xl md:text-6xl font-bold'>Our Mission</h3>
         <p className='text-2xl py-6'>
-          Taking vending machine services through the Stratosphere, at Zero-cost to you!
+          Taking vending services through the Stratosphere!
         </p>
         <p className='pb-6'>
-          We noticed a hunger for premium, natural, and healthy options local to the greater Denver-Boulder area. BVCo. proudly serves high quality products with natural ingredients as well as the "Vending Classics" everyone knows and loves. 
+          We noticed a hunger for premium, healthy, and all-natural options local to the Greater Denver-Boulder area. Boulder Vending Co. proudly serves high quality products that pack a flavor punch as well as the "Vending Classics" everyone knows and loves. 
         </p>
         <div>
           

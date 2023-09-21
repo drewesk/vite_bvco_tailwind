@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import NavBar from './components/NavBar'
 import Offers from './components/Offers'
 import AboutUs from './components/AboutUs'
-import ImageSlider from './components/ImageSlider'
+// import ImageSlider from './components/ImageSlider'
 import Contact from './components/Contact'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
          <Hero />
          <Offers />
          <AboutUs />
-         <ImageSlider />
+        {/* <ImageSlider />*/}
          <Contact />
       </div>  
   )
